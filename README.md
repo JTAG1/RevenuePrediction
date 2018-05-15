@@ -38,9 +38,9 @@
    ```
 # Revenue Prediction Introduction
 
->This model mainly predicts the user consumption. It only needs to input the training data set and specify the characteristics and prediction targets to complete the training of the prediction model. At the same time, the model can be evaluated by using the test set. As the following figure shows, the training features have basic information: age, gender, region, industry
-consumption ability: consumption cycle, consumption amount, consumption level 
-browsing records: long browsing time, browsing goods 
+>This model mainly predicts the user consumption. It only needs to input the training data set and specify the characteristics and prediction targets to complete the training of the prediction model. At the same time, the model can be evaluated by using the test set. As the following figure shows, the training features have basic information: age, gender, region, industry;
+consumption ability: consumption cycle, consumption amount, consumption level;
+browsing records: long browsing time, browsing goods;
 Forecast target is consumption amount (characteristics and targets are not limited to these, different industries can customize themselves)
 
 ![](https://github.com/BCI-Athena/RevenuePrediction/blob/master/Images/RevenuePrediction.JPG)
