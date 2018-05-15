@@ -43,7 +43,7 @@ Consumption capacity: consumption cycle, consumption amount, consumption level;
 Browsing record: browsing time, browsing goods;
 Forecast target is consumption amount (characteristics and targets are not limited to these, different industries can customize themselves)
 
-![](https://github.com/BCI-Athena/RevenuePrediction/blob/master/Images/RevenuePrediction.JPG)
+![](https://github.com/BCI-Athena/RevenuePrediction/blob/master/Images/RevenuePrediction-EN.png)
 
 ##### Training Data Set
 + Data set format:.csv
