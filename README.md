@@ -58,21 +58,21 @@ Forecast target is consumption amount (characteristics and targets are not limit
 + Tips:Data sets are preprocessed and null not allowed to exist;and include predict target for evaluating models
 
 ##### Config description
->In the official download run.sh and Config.ini, modify the config to perform the following command training model and get the Predict results, the running process as shown in the following figure.
+>Config.ini. can be downloaded officially, and the user changes the file to configure the dataset, features, prediction targets, and mirroring versions, as shown in the following table:
 
 | **Key**             | **Description**      | **Examples**                               |
 | :------------------ | :---------- | :----------------------------------- |
-| data_dir            | 数据集存放目录     | /home/hb/docker_file                 |
-| train_data          | 训练集文件名称     | train_1w.csv                         |
-| test_data           | 测试集文件名称     | test_2k.csv                          |
-| test_data_predicted | 测试集预测结果文件名称 | predicted.csv                        |
-| eval_data           | 评估结果文件名称    | eval.csv                             |
-| features            | 特征          | ['feature1', 'feature2', 'feature3'] |
-| predict_target      | 预测目标        | ['target1,' target2']                |
-| imageVersion        | 镜像版本        | models:v7                            |
+| data_dir            | Data set directory     | /home/hb/docker_file                 |
+| train_data          | Training data set name     | train_1w.csv                         |
+| test_data           | Testing data set name     | test_2k.csv                          |
+| test_data_predicted | Testing data set predict result file name | predicted.csv                        |
+| eval_data           | Evaluation result file name    | eval.csv                             |
+| features            | Features          | ['feature1', 'feature2', 'feature3'] |
+| predict_target      | Predict Target        | ['target1,' target2']                |
+| imageVersion        | Mirror version        | models:v7                            |
 
 ##### Training and Predict
->In the official download run.sh and Config.ini, modify the config to perform the following command training model and get the Predict results, the running process as shown in the following figure.
+>You can download run.sh and config.ini, modify the configuration file to execute the following command training model and get the predicted results, as shown in the following figure
 
 ```
 ./run.sh config location direatory/config.ini
