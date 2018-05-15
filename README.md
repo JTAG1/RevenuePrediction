@@ -1,6 +1,8 @@
 # Introduction 
 > This is BAIOPS Revenue Prediction Project
 
+![](https://github.com/BCI-Athena/RevenuePrediction/blob/master/Images/RevenuePrediction.JPG)
+
 # Getting Started
 1. Install docker package
     > For Ubuntu
