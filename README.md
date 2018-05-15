@@ -65,7 +65,7 @@ Forecast target is consumption amount (characteristics and targets are not limit
 | data_dir            | Data set directory     | /home/hb/docker_file                 |
 | train_data          | Training data set name     | train_1w.csv                         |
 | test_data           | Testing data set name     | test_2k.csv                          |
-| test_data_predicted | Testing data set predict result file name | predicted.csv                        |
+| test_data_predicted | Testing data set predict result name | predicted.csv                        |
 | eval_data           | Evaluation result file name    | eval.csv                             |
 | features            | Features          | ['feature1', 'feature2', 'feature3'] |
 | predict_target      | Predict Target        | ['target1,' target2']                |
