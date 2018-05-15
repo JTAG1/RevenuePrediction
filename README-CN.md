@@ -108,3 +108,4 @@
  ```
 ./run.sh config所在目录/config.ini
  ```
+![](https://github.com/BCI-Athena/RevenuePrediction/blob/master/Images/RevenuePrediction-directive.PNG)
