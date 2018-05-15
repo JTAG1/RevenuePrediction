@@ -36,7 +36,7 @@
    ```
     Assign the example output here
    ```
-#Revenue Prediction Introduction
+# Revenue Prediction Introduction
 
 >This model mainly predicts the user consumption. It only needs to input the training data set and specify the characteristics and prediction targets to complete the training of the prediction model. At the same time, the model can be evaluated by using the test set. As the following figure shows, the training features have basic information: age, gender, region, industry
 consumption ability: consumption cycle, consumption amount, consumption level 
@@ -70,3 +70,11 @@ Forecast target is consumption amount (characteristics and targets are not limit
 | features            | 特征          | ['feature1', 'feature2', 'feature3'] |
 | predict_target      | 预测目标        | ['target1,' target2']                |
 | imageVersion        | 镜像版本        | models:v7                            |
+
+##### Training and Predict
+>In the official download run.sh and Config.ini, modify the config to perform the following command training model and get the Predict results, the running process as shown in the following figure.
+
+```
+./run.sh config location direatory/config.ini
+```
+![](https://github.com/BCI-Athena/RevenuePrediction/blob/master/Images/RevenuePrediction-directive.png)
